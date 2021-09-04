@@ -3,12 +3,6 @@
     margin: 0px;
     padding: 0px; 
 }
- 
-body {
-    margin: 0px;
-    padding: opx;
-    font-family: Helvetica;
-}
 
 .mobile-menu {
     float: right;
@@ -53,6 +47,13 @@ body {
 #check:hover ~ .sidebar {
     left: 0;
 }
+
+body {
+    margin: 0px;
+    padding: opx;
+    font-family: Helvetica;
+}
+
 
 .wrapper {
     width: 1100px;
