@@ -2,177 +2,178 @@
     text-decoration: none;
     margin: 0px;
     padding: 0px; 
+}
+
+body {
+    margin: 0px;
+    padding: opx;
+    font-family: Helvetica;
+}
+
+
+.wrapper {
+    width: 1100px;
+    margin: auto;
+    position: relative;
+}
+ 
+.logo a {
+    font-size: 30px;
+    font-weight: bold;
+    float: left;
+    font-family: Helvetica;
+    color: #6F4C5B;
+}
+ 
+.menu {
+    float: right;
+}
+ 
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background-color: #fafafa;
+    z-index: 1;
+}
+ 
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0px;
+    overflow: hidden;
+}
+ 
+nav ul li{
+    float: left;
+}
+ 
+nav ul li a{
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 20px 0px 20px;
+    text-decoration: none;
+}
+ 
+nav ul li a:hover {
+    text-decoration: underline;
  }
  
- body {
-     margin: 0px;
-     padding: opx;
-     font-family: Helvetica;
- }
- 
- .wrapper {
-     width: 1100px;
-     margin: auto;
-     position: relative;
- }
- 
- .logo a {
-     font-size: 30px;
-     font-weight: bold;
-     float: left;
-     font-family: Helvetica;
-     color: #6F4C5B;
- }
- 
- .menu {
-     float: right;
- }
- 
- nav {
-     width: 100%;
-     margin: auto;
-     display: flex;
-     line-height: 80px;
-     position: sticky;
-     position: -webkit-sticky;
-     top: 0;
-     background-color: #fafafa;
-     z-index: 1;
- }
- 
- nav ul {
-     list-style-type: none;
-     margin: 0;
-     padding: 0px;
-     overflow: hidden;
- }
- 
- nav ul li{
-     float: left;
- }
- 
- nav ul li a{
-     color: black;
-     font-weight: bold;
-     text-align: center;
-     padding: 0px 20px 0px 20px;
-     text-decoration: none;
- }
- 
- nav ul li a:hover {
-     text-decoration: underline;
- }
- 
- section {
-     margin: auto;
-     display: flex;
-     margin-bottom: 50px;
- }
+section {
+    margin: auto;
+    display: flex;
+    margin-bottom: 50px;
+}
  
  .kolom {
-     margin-top: 50px;
-     margin-bottom: 50px;
- }
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
  
  .kolom .deskripsi {
-     font-size: 17px;
-     font-weight: bold;
-     font-family: 'Helvetica';
-     color: #6F4C5B;
- }
+    font-size: 17px;
+    font-weight: bold;
+    font-family: 'Helvetica';
+    color: #6F4C5B;
+}
  
  h2 {
-     font-family: 'Helvetica';
-     font-weight: 600;
-     font-size: 46px;
-     margin-bottom: 35px;
-     color: #6F4C5B;
-     width: 100%;
-     line-height: 25px;
- }
+    font-family: 'Helvetica';
+    font-weight: 600;
+    font-size: 46px;
+    margin-bottom: 35px;
+    color: #6F4C5B;
+    width: 100%;
+    line-height: 25px;
+}
  
  a.tbl-login {
-     background: #6F4C5B;
-     border-radius: 20px;
-     margin-top: 10px;
-     margin-left: 10px;
-     padding: 10px 15px 10px 15px;
-     color: #fafafa;
-     cursor: pointer;
-     font-weight: bold;
- }
+    background: #6F4C5B;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-left: 10px;
+    padding: 10px 15px 10px 15px;
+    color: #fafafa;
+    cursor: pointer;
+    font-weight: bold;
+}
  
- a.tbl-login:hover {
-     background: #DEBA9D;
-     text-decoration: none;
- }
+a.tbl-login:hover {
+    background: #DEBA9D;
+    text-decoration: none;
+}
  
- a.tbl-home {
-     background: #6F4C5B;
-     border-radius: 10px;
-     margin-top: 200px;
-     padding: 10px 15px 10px 15px;
-     color: #fafafa;
-     cursor: pointer;
-     font-weight: bold;
- }
+a.tbl-home {
+    background: #6F4C5B;
+    border-radius: 10px;
+    margin-top: 200px;
+    padding: 10px 15px 10px 15px;
+    color: #fafafa;
+    cursor: pointer;
+    font-weight: bold;
+}
  
- a.tbl-home:hover {
-     background: #DEBA9D;
-     text-decoration: none;
- }
+a.tbl-home:hover {
+    background: #DEBA9D;
+    text-decoration: none;
+}
  
- p {
-     margin: 10px 0px 10px 0px;
-     padding: 5px 0px 10px 0px;
- }
+p {
+    margin: 10px 0px 10px 0px;
+    padding: 5px 0px 10px 0px;
+}
  
- a.tbl-product {
-     background: #6F4C5B;
-     border-radius: 10px;
-     margin-top: 20px;
-     padding: 10px 15px 10px 15px;
-     color: #fafafa;
-     cursor: pointer;
-     font-weight: bold;
- }
+a.tbl-product {
+    background: #6F4C5B;
+    border-radius: 10px;
+    margin-top: 20px;
+    padding: 10px 15px 10px 15px;
+    color: #fafafa;
+    cursor: pointer;
+    font-weight: bold;
+}
  
- a.tbl-product:hover {
-     background: #DEBA9D;
-     text-decoration: none;
- }
+a.tbl-product:hover {
+    background: #DEBA9D;
+    text-decoration: none;
+}
  
- .tengah {
-     text-align: center;
-     width: 100%;
- }
+.tengah {
+    text-align: center;
+    width: 100%;
+}
  
- .list-testi {
-     width: 100%;
-     position: relative;
-     display: flex;
-     flex-wrap: wrap;
- }
+.list-testi {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
  
- .kartu-testi {
-     width: 20%;
-     margin: 0 auto;
- }
+.kartu-testi {
+    width: 20%;
+    margin: 0 auto;
+}
  
- .kartu-testi img {
-     width: 80%;
-     border-radius: 50%;
- }
- 
- .kartu-testi p {
-     font-family: Helvetica;
-     font-weight: 600;
-     font-size: 25px;
-     text-align: center;
-     color: #6F4C5B;
- }
+.kartu-testi img {
+    width: 80%;
+    border-radius: 50%;
+}
 
- #contact {
+.kartu-testi p {
+    font-family: Helvetica;
+    font-weight: 600;
+    font-size: 25px;
+    text-align: center;
+    color: #6F4C5B;
+}
+
+#contact {
     background: #dedede;
     padding: 50px 0px 50px 0px;
 }
@@ -204,7 +205,7 @@ h3 {
     width: 100%;
     line-height: 50px;
 }
- 
+
 .mobile-menu {
     float: right;
     display: none;
@@ -214,13 +215,6 @@ h3 {
 
 .mobile-menu:hover {
     cursor: pointer;
-}
-
-#copyright {
-    text-align: center;
-    width: 100%;
-    padding: 10px 0px 50px 0px;
-    margin-top: 5%;
 }
 
 #check {
@@ -256,7 +250,19 @@ h3 {
     left: 0;
 }
 
+#copyright {
+    text-align: center;
+    width: 100%;
+    padding: 10px 0px 50px 0px;
+    margin-top: 5%;
+}
+
 @media screen and (max-width: 991.98px) {
+    
+    .mobile-menu {
+        display: block;
+    }
+    
     .wrapper {
         width: 90%;
     }
@@ -297,7 +303,4 @@ h3 {
         width: 50%;
     }
 
-    .mobile-menu {
-        display: block;
-    }
 }
