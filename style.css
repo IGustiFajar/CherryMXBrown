@@ -258,6 +258,11 @@ h3 {
 }
 
 @media screen and (max-width: 991.98px) {
+    
+    .mobile-menu {
+        display: block;
+    }
+    
     .wrapper {
         width: 90%;
     }
@@ -298,7 +303,4 @@ h3 {
         width: 50%;
     }
 
-    .mobile-menu {
-        display: block;
-    }
 }
