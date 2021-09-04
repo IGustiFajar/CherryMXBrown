@@ -104,12 +104,12 @@ a.tbl-login {
 }
 
 a.tbl-login:hover {
-    background: #56494E;
+    background: #645853;
     text-decoration: none;
 }
 
 a.tbl-home {
-    background: #56494E;
+    background: #645853;
     border-radius: 15px;
     margin-top: 20px;
     padding: 15px 20px 15px 20px;
@@ -128,3 +128,47 @@ p {
     padding: 10px 0px 10px 0px;
 }
 
+a.tbl-produk {
+    background: #645853;
+    border-radius: 15px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: #fafafa;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.tbl-produk:hover {
+    background: #DDBEA8;
+    text-decoration: none;
+}
+
+.tengah {
+    text-align: center;
+    width: 100%;
+}
+
+.list-testi {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.kartu-testi {
+    width: 20%;
+    margin: 0 auto;
+}
+
+.kartu-testi img {
+    width: 80%;
+    border-radius: 50%;
+}
+
+.kartu-testi p {
+    font-family: Verdana;
+    font-weight: 800;
+    font-size: 25px;
+    text-align: center;
+    color: #865439;
+}
