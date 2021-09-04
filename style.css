@@ -7,12 +7,12 @@
 body {
     margin: 0px;
     padding: opx;
-    font-family: sans-serif;
+    font-family: Helvetica;
 }
 
 .wrapper {
     width: 1100px;
-    margin: auto;
+    margin: 200px;
     position: relative;
 }
 
@@ -20,13 +20,12 @@ body {
     font-size: 50px;
     font-weight: bold;
     float: left;
-    font-family: monospace;
+    font-family: Helvetica;
     color: #865439;
 }
 
 .menu {
     float: right;
-
 }
 
 nav {
