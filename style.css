@@ -38,6 +38,8 @@ nav {
     position: -webkit-sticky;
     top: 0;
     background-color: #fafafa;
+    z-index: 1;
+    border-bottom: 1px solid #865439;
 }
 
 nav ul {
@@ -77,12 +79,12 @@ section {
 .kolom .deskripsi {
     font-size: 18px;
     font-weight: bold;
-    font-family: 'Helvetica';
+    font-family: 'Verdana';
     color: #865439;
 }
 
 h2 {
-    font-family: 'Helvetica';
+    font-family: 'Verdana';
     font-weight: 800;
     font-size: 44px;
     margin-bottom: 20px;
@@ -94,7 +96,7 @@ h2 {
 a.tbl-login {
     background: #DDBEA8;
     border-radius: 15px;
-    margin-top: 20px;
+    margin-top: 15px;
     padding: 15px 20px 15px 20px;
     color: #fafafa;
     cursor: pointer;
@@ -102,7 +104,27 @@ a.tbl-login {
 }
 
 a.tbl-login:hover {
-    color: #56494E;
+    background: #56494E;
     text-decoration: none;
+}
+
+a.tbl-home {
+    background: #56494E;
+    border-radius: 15px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: #fafafa;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.tbl-home:hover {
+    background: #DDBEA8;
+    text-decoration: none;
+}
+
+p {
+    margin: 10px 0px 10px 0px;
+    padding: 10px 0px 10px 0px;
 }
 
