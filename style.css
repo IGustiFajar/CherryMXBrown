@@ -7,7 +7,7 @@
 body {
     margin: 0px;
     padding: opx;
-    font-family: Helvetica;
+    font-family: 'Poppins', sans-serif;
 }
 
 
@@ -21,7 +21,7 @@ body {
     font-size: 30px;
     font-weight: bold;
     float: left;
-    font-family: Helvetica;
+    font-family: 'Poppins', sans-serif;
     color: #6F4C5B;
 }
  
@@ -54,7 +54,7 @@ nav ul li{
  
 nav ul li a{
     color: black;
-    font-weight: bold;
+    font-weight: 500;
     text-align: center;
     padding: 0px 20px 0px 20px;
     text-decoration: none;
@@ -77,16 +77,16 @@ section {
  
  .kolom .deskripsi {
     font-size: 17px;
-    font-weight: bold;
-    font-family: 'Helvetica';
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
     color: #6F4C5B;
 }
  
  h2 {
-    font-family: 'Helvetica';
-    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
     font-size: 46px;
-    margin-bottom: 35px;
+    margin-bottom: 15px;
     color: #6F4C5B;
     width: 100%;
     line-height: 25px;
@@ -100,7 +100,7 @@ section {
     padding: 10px 15px 10px 15px;
     color: #fafafa;
     cursor: pointer;
-    font-weight: bold;
+    font-weight: 500;
 }
  
 a.tbl-login:hover {
@@ -115,7 +115,7 @@ a.tbl-home {
     padding: 10px 15px 10px 15px;
     color: #fafafa;
     cursor: pointer;
-    font-weight: bold;
+    font-weight: 500;
 }
  
 a.tbl-home:hover {
@@ -135,7 +135,7 @@ a.tbl-product {
     padding: 10px 15px 10px 15px;
     color: #fafafa;
     cursor: pointer;
-    font-weight: bold;
+    font-weight: 500;
 }
  
 a.tbl-product:hover {
@@ -166,7 +166,7 @@ a.tbl-product:hover {
 }
 
 .kartu-testi p {
-    font-family: Helvetica;
+    font-family: 'Poppins', sans-serif;
     font-weight: 600;
     font-size: 25px;
     text-align: center;
@@ -197,7 +197,7 @@ a.tbl-product:hover {
 }
 
 h3 {
-    font-family: sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-weight: 800;
     font-size: 30px;
     margin-bottom: 20px;
