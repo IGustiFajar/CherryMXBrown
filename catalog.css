@@ -77,24 +77,18 @@ section {
 }
  
 .kolom {
-    margin-top: 70px;
+    margin-top: 60px;
     margin-bottom: 50px;
 }
- 
-.kolom .deskripsi {
-    font-size: 17px;
-    font-weight: 500;
-    font-family: 'Poppins', sans-serif;
-    color: #6F4C5B;
-}
- 
+
 h2 {
     font-family: 'Poppins', sans-serif;
-    font-weight: 700;
+    font-weight: 500;
     font-size: 46px;
     margin-bottom: 15px;
     color: #6F4C5B;
     width: 100%;
+    text-align: center;
     line-height: 40px;
 }
 
@@ -113,70 +107,32 @@ a.tbl-login:hover {
     background: #DEBA9D;
     text-decoration: none;
 }
- 
-a.tbl-home {
-    background: #6F4C5B;
-    border-radius: 10px;
-    margin-top: 200px;
-    padding: 10px 15px 10px 15px;
-    color: #fafafa;
-    cursor: pointer;
-    font-weight: 500;
-}
- 
-a.tbl-home:hover {
-    background: #DEBA9D;
-    text-decoration: none;
-}
- 
-p {
-    margin: 10px 0px 10px 0px;
-    padding: 5px 0px 10px 0px;
-}
 
-a.tbl-product {
-    background: #6F4C5B;
-    border-radius: 10px;
-    margin-top: 20px;
-    padding: 10px 15px 10px 15px;
-    color: #fafafa;
-    cursor: pointer;
-    font-weight: 500;
-}
- 
-a.tbl-product:hover {
-    background: #DEBA9D;
-    text-decoration: none;
-}
- 
 .tengah {
     text-align: center;
     width: 100%;
 }
- 
-.list-testi {
-    width: 100%;
-    position: relative;
+
+.catalog {
     display: flex;
+    align-items: center;
     flex-wrap: wrap;
-}
- 
-.kartu-testi {
-    width: 20%;
-    margin: 0 auto;
-}
- 
-.kartu-testi img {
-    width: 80%;
-    border-radius: 50%;
+    justify-content: space-around;
+    max-width: 1080px;
+    margin: auto;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
-.kartu-testi p {
-    font-family: 'Poppins', sans-serif;
-    font-weight: 300;
-    font-size: 20px;
-    text-align: center;
-    color: #6F4C5B;
+.col-4 {
+    flex-basis: 25%;
+    padding: 10px;
+    min-width: 200px;
+    margin-bottom: 50px;
+}
+
+.col-4 img {
+    width: 100%;
 }
 
 #contact {
@@ -306,9 +262,4 @@ h3 {
         width: 100%;
         height: auto;
     }
-
-    .kartu-testi {
-        width: 50%;
-    }
-
 }
