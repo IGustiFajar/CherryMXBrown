@@ -15,7 +15,11 @@ body {
     margin: auto;
     position: relative;
 }
- 
+
+.wrapper img {
+    max-width: 50%;
+}
+
 .logo a {
     font-size: 30px;
     font-weight: bold;
@@ -72,29 +76,29 @@ section {
     margin-bottom: 50px;
 }
  
- .kolom {
-    margin-top: 50px;
+.kolom {
+    margin-top: 70px;
     margin-bottom: 50px;
 }
  
- .kolom .deskripsi {
+.kolom .deskripsi {
     font-size: 17px;
     font-weight: 500;
     font-family: 'Poppins', sans-serif;
     color: #6F4C5B;
 }
  
- h2 {
+h2 {
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
     font-size: 46px;
     margin-bottom: 15px;
     color: #6F4C5B;
     width: 100%;
-    line-height: 25px;
+    line-height: 40px;
 }
 
- a.tbl-login {
+a.tbl-login {
     background: #6F4C5B;
     border-radius: 20px;
     margin-top: 10px;
@@ -169,8 +173,8 @@ a.tbl-product:hover {
 
 .kartu-testi p {
     font-family: 'Poppins', sans-serif;
-    font-weight: 600;
-    font-size: 25px;
+    font-weight: 300;
+    font-size: 20px;
     text-align: center;
     color: #6F4C5B;
 }
