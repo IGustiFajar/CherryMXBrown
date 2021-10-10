@@ -13,8 +13,11 @@
 </head>
 <body>
 
+    
+
+    
     <!--Menu Sidebar-->
-    <input type="checkbox" id="check"></input>
+    <!-- <input type="checkbox" id="check"></input>
 
     <div class="sidebar">
         <ul>
@@ -24,13 +27,12 @@
             <li><a href="#contact">Contact</a></li>
             <li><a href="login.html">Login</a></li>
         </ul>
-    </div>
+    </div> -->
     
     <!--Bagian Header-->
     <nav>
         <div class="wrapper">
             <div class="logo"><a href="#">Cherry MX Brown</a></div>
-            
             <div class="menu">
                 <ul>
                     <li><a href="#home">Home</a></li>
@@ -38,17 +40,19 @@
                     <li><a href="#about">About</a></li>
                     <li><a href="#contact">Contact</a></li>
                     <li><a href="login.html" class="tbl-login">Login</a></li>
+                    <img src="img/moon.png" id="icon">
                 </ul>
+                
 
                 <!-- Menu Mobile-->
-                <label for="check" class="mobile-menu"><i class="fas fa-bars fa-2x"></i></label>
+                <!-- <label for="check" class="mobile-menu"><i class="fas fa-bars fa-2x"></i></label> -->
             </div>
         </div>
     </nav>
     <!--Halaman Home-->
     <div class="wrapper">
         <section id="home">
-            <img src="img/1.jpg"/>
+            <img src="img/1.png"/>
             <div class="kolom">
                 <p class="deskripsi">Welcome to CHERRY MX BROWN</p>
                 <h2>E-Commerce buatan mahasiswa ITK</h2>
@@ -137,7 +141,7 @@
                     <div class="footer-section">
                         <h3>CEO</h3>
                         <img src=""/>
-                        <p>I Gusti Bagus Fajar Prasetya</p>
+                        <p>I Gusti Fajar</p>
                     </div>
                     <div class="footer-section">
                         <h3>Contact</h3>
@@ -159,7 +163,19 @@
         </div>
     </div>
 
-    
+<script>
 
+    var icon = document.getElementById("icon");
+
+    icon.onclick = function(){
+        document.body.classList.toggle("dark-theme");
+        if(document.body.classList.contains("dark-theme")){
+            icon.src = "img/sunny.png";
+        }else{
+            icon.src = "img/moon.png";
+        }
+    }
+
+</script>
 </body>
 </html>
