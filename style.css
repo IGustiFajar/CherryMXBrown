@@ -4,6 +4,8 @@
     padding: 0px; 
 }
 
+
+
 body {
     margin: 0px;
     padding: 0px;
@@ -51,6 +53,12 @@ nav ul {
     margin: 0;
     padding: 0px;
     overflow: hidden;
+}
+
+#icon{
+    width: 50px;
+    cursor: pointer;
+    margin-top: 15px;
 }
  
 nav ul li{
@@ -214,7 +222,7 @@ h3 {
     line-height: 50px;
 }
 
-.mobile-menu {
+/* .mobile-menu {
     float: right;
     display: none;
     padding: 18px;
@@ -223,13 +231,13 @@ h3 {
 
 .mobile-menu:hover {
     cursor: pointer;
-}
+} */
 
 #check {
     display: none;
 }
 
-.sidebar {
+/* .sidebar {
     position: fixed;
     top: 0;
     bottom: 0;
@@ -256,7 +264,7 @@ h3 {
 
 #check:hover ~ .sidebar {
     left: 0;
-}
+} */
 
 #copyright {
     text-align: center;
@@ -264,6 +272,7 @@ h3 {
     padding: 10px 0px 50px 0px;
     margin-top: 5%;
 }
+
 
 @media screen and (max-width: 991.98px) {
     
