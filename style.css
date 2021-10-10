@@ -4,41 +4,26 @@
     padding: 0px; 
 }
 
-:root{
-    --primary-color: #edf2fc;
-    --secondary-color: #212121;
-    
-}
-
-.dark-theme{
-    --primary-color: #000106;
-    --secondary-color: #fff;
-}
-
 body {
     margin: 0px;
-    padding: 0px;
-    background: var(--primary-color);
+    padding: opx;
     font-family: 'Poppins', sans-serif;
+    background-image: url(gambar.jpg);
+    background-size: 100%;
+    /* background-color: red; */
 }
-
 .wrapper {
     width: 1100px;
     margin: auto;
     position: relative;
+    /* background-color: red;*/
 }
-
-.wrapper img {
-    max-width: 50%;
-}
-
 .logo a {
     font-size: 30px;
     font-weight: bold;
     float: left;
     font-family: 'Poppins', sans-serif;
-    /* color: #6F4C5B; */
-    color: var(--secondary-color);
+    color: white;
 }
  
 .menu {
@@ -53,7 +38,6 @@ nav {
     position: sticky;
     position: -webkit-sticky;
     top: 0;
-    /* background-color: #fafafa; */
     background-color: #15477A;
     z-index: 1;
 }
@@ -72,14 +56,15 @@ nav ul {
     margin-left: 0px;
     margin-right: 10px;
 }
- 
+
 nav ul li{
     float: left;
 }
  
 nav ul li a{
-    /* color: black; */
-    color: var(--secondary-color);
+/* <<<<<<< HEAD */
+    color: rgb(94, 81, 81);
+/* >>>>>>> 580f0d5b331b2419430abd1a37f91936f2580f23 */
     font-weight: 500;
     text-align: center;
     padding: 0px 20px 0px 20px;
@@ -89,42 +74,43 @@ nav ul li a{
 nav ul li a:hover {
     text-decoration: underline;
  }
-
+ 
 section {
     margin: auto;
     display: flex;
     margin-bottom: 50px;
 }
  
-.kolom {
-    margin-top: 70px;
+ .kolom {
+    margin-top: 50px;
     margin-bottom: 50px;
+    color: #fafafa;
 }
  
-.kolom .deskripsi {
+ .kolom .deskripsi {
     font-size: 17px;
     font-weight: 500;
     font-family: 'Poppins', sans-serif;
-    color: var(--secondary-color);
+    color: whitesmoke;
 }
  
-h2 {
+ h2 {
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
     font-size: 46px;
     margin-bottom: 15px;
-    color: var(--secondary-color);
+    color: #DEBA9D;
     width: 100%;
-    line-height: 40px;
+    line-height: 25px;
 }
 
-a.tbl-login {
+ a.tbl-login {
     background: #6F4C5B;
     border-radius: 20px;
     margin-top: 10px;
     margin-left: 10px;
     padding: 10px 15px 10px 15px;
-    color: var(--secondary-color));
+    color: #fafafa;
     cursor: pointer;
     font-weight: 500;
 }
@@ -165,7 +151,6 @@ a.tbl-home:hover {
 p {
     margin: 10px 0px 10px 0px;
     padding: 5px 0px 10px 0px;
-    color: var(--secondary-color);
 }
 
 a.tbl-product {
@@ -207,16 +192,16 @@ a.tbl-product:hover {
 
 .kartu-testi p {
     font-family: 'Poppins', sans-serif;
-    font-weight: 300;
-    font-size: 20px;
+    font-weight: 600;
+    font-size: 25px;
     text-align: center;
-    color: var(--secondary-color);
+    color: rgba(231, 121, 18, 0.9);
 }
 
 #contact {
-    background: var(--primary-color);
+    background: #eee;
     padding: 50px 0px 50px 0px;
-    box-shadow: 0 8px 8px -4px var(--secondary-color);
+    box-shadow: 0 8px 8px -4px lightblue;
     border-radius: 10px;
 }
 
@@ -243,12 +228,12 @@ h3 {
     font-weight: 800;
     font-size: 30px;
     margin-bottom: 20px;
-    color: var(--secondary-color);
+    color: rgba(104, 196, 219, 0.9);
     width: 100%;
     line-height: 50px;
 }
 
-/* .mobile-menu {
+.mobile-menu {
     float: right;
     display: none;
     padding: 18px;
@@ -257,13 +242,13 @@ h3 {
 
 .mobile-menu:hover {
     cursor: pointer;
-} */
+}
 
 #check {
     display: none;
 }
 
-/* .sidebar {
+.sidebar {
     position: fixed;
     top: 0;
     bottom: 0;
@@ -290,16 +275,14 @@ h3 {
 
 #check:hover ~ .sidebar {
     left: 0;
-} */
+}
 
 #copyright {
     text-align: center;
     width: 100%;
     padding: 10px 0px 50px 0px;
     margin-top: 5%;
-    color: var(--secondary-color);
 }
-
 
 @media screen and (max-width: 991.98px) {
     
@@ -328,6 +311,7 @@ h3 {
         line-height: 60px;
     }
 
+
     nav .menu ul li {
         display: inline-block;
         float: none;
@@ -348,3 +332,34 @@ h3 {
     }
 
 }
+
+/* .search {
+    div.content {
+        margin: 1em 10%;
+        background-color: rgb(75, 199, 71);
+        padding: 1em 2em;
+        border-radius: 6px;
+    }
+    
+    div.container {
+        padding: 1em;
+        background-color: #94ff90;
+        margin-bottom: 1em;
+        border-radius: 6px;
+    }
+    
+    div.container:last-child {
+        margin-bottom: 0;
+    }
+    
+    div.container > * {
+        margin-bottom: 1em;
+    }
+    div.container > *:last-child {
+        margin-bottom: 0;
+    }
+    
+    body {
+        background-color: #fffdd0;
+    }
+} */
