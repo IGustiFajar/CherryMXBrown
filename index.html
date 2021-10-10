@@ -9,9 +9,10 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;0,700;1,300&display=swap" rel="stylesheet">
-      
+    <script src="https://kit.fontawesome.com/a34aa0552a.js" crossorigin="anonymous"></script>
 </head>
 <body>
+    
 
     
 
@@ -34,15 +35,21 @@
         <div class="wrapper">
             <div class="logo"><a href="#">Cherry MX Brown</a></div>
             <div class="menu">
+                <div class="search-box">
+                    <i class="fas fa-search"></i>
+                    <input type="text" id="output" onkeyup="keyupFunction()">
+                    <i class="fas fa-times-circle" id="erase" onclick="erasetext()"></i>
+                </div>
                 <ul>
                     <li><a href="#home">Home</a></li>
                     <li><a href="catalog.html">Product</a></li>
                     <li><a href="#about">About</a></li>
                     <li><a href="#contact">Contact</a></li>
-                    <li><a href="login.html" class="tbl-login">Login</a></li>
+                    <li><a href="login.html"class="tbl-login">Login</a></li>
                     <img src="img/moon.png" id="icon">
                     <li><a href="#" class="tbl-darkmode"></a></li>
                 </ul>
+
                 
 
                 <!-- Menu Mobile-->
@@ -178,5 +185,6 @@
     }
 
 </script>
+<script src="main.js"></script>
 </body>
 </html>
