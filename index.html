@@ -1,41 +1,43 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <meta charset="UTF-8"/>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
-    <meta name="viewport" content="width= , initial-scale=1.0"/>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cherry MX Brown</title>
-    <link rel="stylesheet" href="style.css" type="text/css" media="screen, projection, tv"/>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;0,700;1,300&display=swap" rel="stylesheet">
+      
 </head>
 <body>
-    
+
     <!--Menu Sidebar-->
     <input type="checkbox" id="check"></input>
 
     <div class="sidebar">
         <ul>
             <li><a href="#home">Home</a></li>
-            <li><a href="#product">Product</a></li>
-            <li><a href="#history">History</a></li>
+            <li><a href="catalog.html">Product</a></li>
             <li><a href="#about">About</a></li>
             <li><a href="#contact">Contact</a></li>
-            <li><a href="" class="tbl-login">Login</a></li>
+            <li><a href="login.html">Login</a></li>
         </ul>
-
     </div>
-   
+    
     <!--Bagian Header-->
     <nav>
         <div class="wrapper">
-            <div class="logo"><a href=''>Cherry MX Brown</a></div>
+            <div class="logo"><a href="#">Cherry MX Brown</a></div>
+            
             <div class="menu">
                 <ul>
                     <li><a href="#home">Home</a></li>
-                    <li><a href="#product">Product</a></li>
-                    <li><a href="#history">History</a></li>
+                    <li><a href="catalog.html">Product</a></li>
                     <li><a href="#about">About</a></li>
                     <li><a href="#contact">Contact</a></li>
-                    <li><a href="#" class="tbl-login">Login</a></li>
+                    <li><a href="login.html" class="tbl-login">Login</a></li>
                 </ul>
 
                 <!-- Menu Mobile-->
@@ -46,7 +48,7 @@
     <!--Halaman Home-->
     <div class="wrapper">
         <section id="home">
-            <img src=""/>
+            <img src="img/1.jpg"/>
             <div class="kolom">
                 <p class="deskripsi">Welcome to CHERRY MX BROWN</p>
                 <h2>E-Commerce buatan mahasiswa ITK</h2>
@@ -63,7 +65,7 @@
                 <p class="deskripsi">Product </p>
                 <h2>Rekomendasi</h2>
                 <p>List product kami dapat dicek dengan mengklik tombol dibawah ini. </p>
-                <p><a href="#" class="tbl-product">Visit Us</a></p>
+                <p><a href="catalog.html" class="tbl-product">Visit Us</a></p>
             </div>
             <img src=""/>
         </section>
@@ -96,6 +98,26 @@
                 </div>
             </div>
         </section>
+
+        <script>
+            // seleksi elemen
+            const kartuTesti = document.querySelectorAll(".kartu-testi img");
+
+            // fungsi addEventListener ketika pointer masuk ke elemen
+            for (let i=0;i<kartuTesti.length;i++){
+                kartuTesti[i].addEventListener('mouseenter', function() {
+                    this.style.transform = "scale(1.1)";
+                    this.style.filter = "brightness(100%)";
+                });
+            }
+            // fungsi addEventListener ketika pointer keluar elemen
+            for (let i=0;i<kartuTesti.length;i++){
+                kartuTesti[i].addEventListener('mouseout', function() {
+                    this.style.transform = "scale(1)";
+                    this.style.filter = "brightness(50%)";
+    });
+}
+        </script>
 
         <!---Halaman About-->
         <section id="About">
