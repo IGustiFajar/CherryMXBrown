@@ -69,7 +69,8 @@ nav ul {
     width: 50px;
     cursor: pointer;
     margin-top: 15px;
-    margin-left: 20px;
+    margin-left: 0px;
+    margin-right: 10px;
 }
  
 nav ul li{
@@ -133,6 +134,19 @@ a.tbl-login:hover {
     text-decoration: none;
 }
  
+/* a.tbl-darkmode {
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-left: 50px;
+    margin-right: 5px;
+    padding: 100px 15px 10px 350px;
+    color: var(--secondary-color));
+    cursor: pointer;
+    font-weight: 500;
+} */
+
+
+
 a.tbl-home {
     background: #6F4C5B;
     border-radius: 10px;
