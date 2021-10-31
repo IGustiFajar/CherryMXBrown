@@ -32,6 +32,10 @@ body {
     max-width: 50%;
 }
 
+#about{
+    padding-bottom: 5rem;
+}
+
 .logo a {
     font-size: 30px;
     font-weight: bold;
