@@ -1,6 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
+     <!-- Bootstrap CSS -->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,37 +17,50 @@
 </head>
 <body>
 
-    <!--Menu Sidebar-->
-    <input type="checkbox" id="check"></input>
-
-    <div class="sidebar">
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="catalog.html">Product</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#contact">Contact</a></li>
-            <li><a href="login.html">Login</a></li>
+  <nav class="navbar fixed-top navbar-expand-lg navbar-dark shadow-sm" style="background-color: #15477a">
+    <div class="container">
+      <a class="navbar-brand" href="#">Cherry MX Brown</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="catalog.html">Product</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="login.html">Login</a>
+          </li>
         </ul>
-    </div>
-    
-    <!--Bagian Header-->
-    <nav>
-        <div class="wrapper">
-            <div class="logo"><a href="index.html">Cherry MX Brown</a></div>
-            <div class="menu">
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="catalog.html">Product</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                    <li><a href="login.html" class="tbl-login">Login</a></li>
-                </ul>
 
-                <!-- Menu Mobile-->
-                <label for="check" class="mobile-menu"><i class="fas fa-bars fa-2x"></i></label>
-            </div>
-        </div>
-    </nav>
+        <!-- Dark Mode -->
+
+        <img src="img/moon.png" id="icon">
+
+
+
+        <!-- <ul class="navbar-nav me-end mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="#"><i class="bi bi-brightness-high-fill"></i></a>
+          </li>
+        </ul> -->
+
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
 
         <!--Halaman Product-->
         <section id="product">
@@ -99,7 +116,7 @@
                     <div class="footer-section">
                         <h3>CEO</h3>
                         <img src=""/>
-                        <p>I Gusti Fajar</p>
+                        <p>I Gusti Bagus Fajar Prasetya</p>
                     </div>
                     <div class="footer-section">
                         <h3>Contact</h3>
@@ -121,5 +138,20 @@
         </div>
     </div>
 
+    <script>
+      var icon = document.getElementById('icon');
+
+      icon.onclick = function () {
+        document.body.classList.toggle('dark-theme');
+        if (document.body.classList.contains('dark-theme')) {
+          icon.src = 'img/sunny.png';
+        } else {
+          icon.src = 'img/moon.png';
+        }
+      };
+    </script>
+    <script src="main.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 </html>

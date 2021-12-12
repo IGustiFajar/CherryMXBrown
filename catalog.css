@@ -4,9 +4,21 @@
     padding: 0px; 
 }
 
+:root{
+    --primary-color: #edf2fc;
+    --secondary-color: #212121;
+    
+}
+
+.dark-theme{
+    --primary-color: #000106;
+    --secondary-color: #fff;
+}
+
 body {
     margin: 0px;
     padding: 0px;
+    background: var(--primary-color);
     font-family: 'Poppins', sans-serif;
 }
 
@@ -26,9 +38,37 @@ body {
     float: left;
     font-family: 'Poppins', sans-serif;
     /* color: #6F4C5B; */
-    color: white;
+    color: var(--secondary-color);
 }
- 
+
+.search-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 200px;
+    background: #e6e4ff;
+    border-radius: 20px;
+    border: solid 2px #addcff;
+    float: right;
+    /* padding: 10px; */
+    margin-top: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+input[type="text"]{
+    border: none;
+    outline: none;
+    width: 100%;
+    height: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 18px;
+    color: #444546;
+    background: #e6e4ff;
+    overflow: hidden;
+}
+
 .menu {
     float: right;
 }
@@ -52,6 +92,14 @@ nav ul {
     padding: 0px;
     overflow: hidden;
 }
+
+#icon{
+    width: 50px;
+    cursor: pointer;
+    margin-top: 1px;
+    margin-left: 0px;
+    margin-right: 10px;
+}
  
 nav ul li{
     float: left;
@@ -59,7 +107,7 @@ nav ul li{
  
 nav ul li a{
     /* color: black; */
-    color: white;
+    color: var(--secondary-color);
     font-weight: 500;
     text-align: center;
     padding: 0px 20px 0px 20px;
@@ -86,7 +134,7 @@ h2 {
     font-weight: 500;
     font-size: 46px;
     margin-bottom: 15px;
-    color: #6F4C5B;
+    color: var(--secondary-color);
     width: 100%;
     text-align: center;
     line-height: 40px;
@@ -98,7 +146,7 @@ a.tbl-login {
     margin-top: 10px;
     margin-left: 10px;
     padding: 10px 15px 10px 15px;
-    color: #fafafa;
+    color: var(--secondary-color);
     cursor: pointer;
     font-weight: 500;
 }
@@ -171,7 +219,7 @@ h3 {
     font-weight: 800;
     font-size: 30px;
     margin-bottom: 20px;
-    color: #FFB740;
+    color: var(--secondary-color);
     width: 100%;
     line-height: 50px;
 }
@@ -189,6 +237,16 @@ h3 {
 
 #check {
     display: none;
+}
+
+h4 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: var(--secondary-color);
+    width: 100%;
+    line-height: 50px;
 }
 
 .sidebar {
@@ -225,6 +283,7 @@ h3 {
     width: 100%;
     padding: 10px 0px 50px 0px;
     margin-top: 5%;
+    color: var(--secondary-color);
 }
 
 @media screen and (max-width: 991.98px) {
