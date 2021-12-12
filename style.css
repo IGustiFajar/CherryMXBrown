@@ -1,0 +1,393 @@
+* {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px; 
+}
+
+:root{
+    --primary-color: #edf2fc;
+    --secondary-color: #212121;
+    
+}
+
+.dark-theme{
+    --primary-color: #000106;
+    --secondary-color: #fff;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background: var(--primary-color);
+    font-family: 'Poppins', sans-serif;
+}
+
+.wrapper {
+    padding-top: 2rem;
+    margin: auto;
+    position: relative;
+}
+
+.wrapper img {
+    max-width: 50%;
+}
+
+#about{
+    padding-bottom: 5rem;
+}
+
+.logo a {
+    font-size: 30px;
+    font-weight: bold;
+    float: left;
+    font-family: 'Poppins', sans-serif;
+    /* color: #6F4C5B; */
+    color: var(--secondary-color);
+}
+
+.search-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 200px;
+    background: #e6e4ff;
+    border-radius: 20px;
+    border: solid 2px #addcff;
+    float: right;
+    /* padding: 10px; */
+    margin-top: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+input[type="text"]{
+    border: none;
+    outline: none;
+    width: 100%;
+    height: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 18px;
+    color: #444546;
+    background: #e6e4ff;
+    overflow: hidden;
+}
+
+.fas.fa-search{
+    font-size: 20px;
+    margin-left: 2px;
+    color: #444546;
+}
+
+.fas.fa-search:hover{
+    color: #202020;
+}
+
+.fas.fa-times-circle{
+    margin-left: 28px;
+    margin-right: 2px;
+    font-size: 15px;
+    color: #444546;
+    transition: .5 ease;
+}
+
+.fas.fa-times-circle.move{
+    margin: 1;
+}
+
+
+.menu {
+    float: right;
+}
+ 
+ 
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0px;
+    overflow: hidden;
+}
+
+#icon{
+    width: 50px;
+    cursor: pointer;
+    margin-top: 15px;
+    margin-left: 0px;
+    margin-right: 10px;
+}
+
+nav ul li{
+    float: left;
+}
+ 
+nav ul li a{
+    /* color: black; */
+    color: var(--secondary-color);
+    font-weight: 500;
+    text-align: center;
+    padding: 0px 20px 0px 20px;
+    text-decoration: none;
+}
+ 
+nav ul li a:hover {
+    text-decoration: underline;
+ }
+
+section {
+    margin: auto;
+    display: flex;
+    margin-bottom: 50px;
+}
+ 
+.kolom {
+    margin-top: 70px;
+    margin-bottom: 50px;
+}
+ 
+.kolom .deskripsi {
+    font-size: 17px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    color: var(--secondary-color);
+}
+ 
+h2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 46px;
+    margin-bottom: 15px;
+    color: var(--secondary-color);
+    width: 100%;
+    line-height: 40px;
+}
+
+a.tbl-login {
+    background: #6F4C5B;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-left: 10px;
+    padding: 10px 15px 10px 15px;
+    color: var(--secondary-color));
+    cursor: pointer;
+    font-weight: 500;
+}
+ 
+a.tbl-login:hover {
+    background: #DEBA9D;
+    text-decoration: none;
+}
+ 
+/* a.tbl-darkmode {
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-left: 50px;
+    margin-right: 5px;
+    padding: 100px 15px 10px 350px;
+    color: var(--secondary-color));
+    cursor: pointer;
+    font-weight: 500;
+} */
+
+
+
+a.tbl-home {
+    background: #6F4C5B;
+    border-radius: 10px;
+    margin-top: 200px;
+    padding: 10px 15px 10px 15px;
+    color: #fafafa;
+    cursor: pointer;
+    font-weight: 500;
+}
+ 
+a.tbl-home:hover {
+    background: #DEBA9D;
+    text-decoration: none;
+}
+ 
+p {
+    margin: 10px 0px 10px 0px;
+    padding: 5px 0px 10px 0px;
+    color: var(--secondary-color);
+}
+
+a.tbl-product {
+    background: #6F4C5B;
+    border-radius: 10px;
+    margin-top: 20px;
+    padding: 10px 15px 10px 15px;
+    color: #fafafa;
+    cursor: pointer;
+    font-weight: 500;
+}
+ 
+a.tbl-product:hover {
+    background: #DEBA9D;
+    text-decoration: none;
+}
+ 
+.tengah {
+    text-align: center;
+    width: 100%;
+}
+ 
+.list-testi {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+ 
+.kartu-testi {
+    width: 20%;
+    margin: 0 auto;
+}
+ 
+.kartu-testi img {
+    width: 80%;
+    border-radius: 50%;
+}
+
+.kartu-testi p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    text-align: center;
+    color: var(--secondary-color);
+}
+
+#contact {
+    background: var(--primary-color);
+    padding: 50px 0px 50px 0px;
+    box-shadow: 0 8px 8px -4px var(--secondary-color);
+    border-radius: 10px;
+}
+
+.footer {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.footer-section {
+    width: 20%;
+    margin: 0 auto;
+}
+
+.footer-section img {
+    width: 80%;
+    border-radius: 50%;
+}
+
+h3 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: var(--secondary-color);
+    width: 100%;
+    line-height: 50px;
+}
+
+/* .mobile-menu {
+    float: right;
+    display: none;
+    padding: 18px;
+    border: 1px solid;
+}
+
+.mobile-menu:hover {
+    cursor: pointer;
+} */
+
+#check {
+    display: none;
+}
+
+/* .sidebar {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: -300px;
+    width: 300px;
+    background-color: rgb(145, 31, 39,.9);
+    transition: .3s;
+}
+
+.sidebar ul li a {
+    color: rgb(255, 255, 255);
+}
+
+.sidebar ul li {
+    padding: 24px;
+    border: 1px solid;
+}
+
+.sidebar ul li:hover {
+    background-color: rosybrown;
+    transition: .3s;
+    transition-property: background-color;
+}
+
+#check:hover ~ .sidebar {
+    left: 0;
+} */
+
+#copyright {
+    text-align: center;
+    width: 100%;
+    padding: 10px 0px 50px 0px;
+    margin-top: 5%;
+    color: var(--secondary-color);
+}
+
+
+@media screen and (max-width: 991.98px) {
+    
+    .mobile-menu {
+        display: block;
+    }
+    
+    .wrapper {
+        width: 90%;
+    }
+
+    .logo img {
+        display: block;
+        width: 20%;
+        text-align: center;
+    }
+
+    nav .menu {
+        width: 60%;
+        margin: 0;
+    }
+
+    nav .menu ul {
+        text-align: center;
+        margin: auto;
+        line-height: 60px;
+    }
+
+    nav .menu ul li {
+        display: inline-block;
+        float: none;
+    }
+
+    section {
+        display: block;
+    }
+
+    section img {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+
+    .kartu-testi {
+        width: 50%;
+    }
+
+}
