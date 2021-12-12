@@ -23,13 +23,17 @@ body {
 }
 
 .wrapper {
-    width: 1100px;
+    padding-top: 2rem;
     margin: auto;
     position: relative;
 }
 
 .wrapper img {
     max-width: 50%;
+}
+
+#about{
+    padding-bottom: 5rem;
 }
 
 .logo a {
@@ -96,18 +100,6 @@ input[type="text"]{
     float: right;
 }
  
-nav {
-    width: 100%;
-    margin: auto;
-    display: flex;
-    line-height: 80px;
-    position: sticky;
-    position: -webkit-sticky;
-    top: 0;
-    /* background-color: #fafafa; */
-    background-color: #15477A;
-    z-index: 1;
-}
  
 nav ul {
     list-style-type: none;
