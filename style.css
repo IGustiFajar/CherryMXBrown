@@ -146,8 +146,9 @@ section {
  
 .kolom .deskripsi {
     font-size: 17px;
-    font-weight: 500;
+    font-weight: 700;
     font-family: 'Poppins', sans-serif;
+    font-style: unset;
     color: var(--secondary-color);
 }
  
@@ -209,6 +210,9 @@ p {
     margin: 10px 0px 10px 0px;
     padding: 5px 0px 10px 0px;
     color: var(--secondary-color);
+    font-style: oblique;
+    font-family: sans-serif;
+    font-weight: normal;
 }
 
 a.tbl-product {
